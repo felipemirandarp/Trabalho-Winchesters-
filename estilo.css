@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(219, 187, 146);
+}
+
+.atores {
+    box-shadow: 10px 10px 5px;
+    border-radius: 20px 20px 5px;
+    width: 1800px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personagens {
+    border-radius: 20px 20px 5px;
+    width: 1780px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#sam {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    box-shadow: 10px 10px 5px;
+    border-radius: 10px 10px 5px;
+    width: 850px;
+    height: 750px;
+}
+
+#adam {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    box-shadow: 10px 10px 5px;
+    border-radius: 10px 10px 5px;
+    width: 850px;
+    height: 750px;
+
+}
+
+#bobby {
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    box-shadow: 10px 10px 5px;
+    border-radius: 10px 10px 5px;
+    width: 850px;
+    height: 750px;
+
+}
