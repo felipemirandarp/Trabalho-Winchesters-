@@ -2,6 +2,11 @@ html{
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: 'Supernatural';
+    src: url(Supernatural_Knight.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;

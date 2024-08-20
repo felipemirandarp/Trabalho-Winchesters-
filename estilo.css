@@ -2,6 +2,11 @@ body {
     background-color: rgb(219, 187, 146);
 }
 
+@font-face {
+    font-family: 'Supernatural';
+    src: url(Supernatural_Knight.ttf);
+}
+
 .atores {
     box-shadow: 10px 10px 5px;
     border-radius: 20px 20px 5px;
