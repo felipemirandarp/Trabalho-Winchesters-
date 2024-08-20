@@ -2,11 +2,6 @@ html{
     scroll-behavior: smooth;
 }
 
-@font-face {
-    font-family: 'Supernatural';
-    src: url(Supernatural_Knight.ttf);
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -136,6 +131,8 @@ nav ul{
     height: 500px;
     background-color: black;
 
+
+    
     img{
         padding: 20px;
         height: 400px;
@@ -149,6 +146,11 @@ nav ul{
     .titulo{
         text-align: center;
     }
+}
+
+.indv-desc:hover{
+    transition: 1.5s;
+    transform: scale(1.05);
 }
 
 #dean , #bobby{

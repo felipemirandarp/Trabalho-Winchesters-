@@ -91,6 +91,11 @@ nav ul{
 
 }
 
+.conteudo:hover{
+    transition: 1.5s;
+    transform: scale(1.05)
+}
+
 #cacadatopo{
     margin-top: 300px;
 }
