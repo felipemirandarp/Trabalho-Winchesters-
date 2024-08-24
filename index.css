@@ -15,8 +15,7 @@ html{
 
 body {
     display: flex;
-    /* background-color: rgb(219, 187, 146); */
-    background-color: rgb(78, 1, 1) ;
+    background-color: rgb(78, 1, 1);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -197,3 +196,4 @@ footer{
       translate: 0 0;
     }
   }
+

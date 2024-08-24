@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
+
 html{
     scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Supernatural';
+    src: url(Supernatural_Knight.ttf);
 }
 
 *{
@@ -72,31 +81,66 @@ nav ul{
     border-right: solid 2px white;
 }
 
-
-.conteudo{
-    
+.navs{
+    margin-left: 110px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(img-indv/fundo2.jpg);
-    background-size: 100%;
-    margin: 150px;
-    padding: 40px;
-    color: white;
-    border: solid 2px black;
-    border-radius: 100px;
-    width: 1000px;
-    height: 500px;
-    background-color: black;
-
-}
-
-#cacadatopo{
+    flex-direction: row;
     margin-top: 300px;
 }
 
+.navs a{
+    border-radius: 20px;
+    border: solid 2px white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-family: 'Supernatural';
+    font-size: 12px;
+}
 
+.navs a:hover{
+    transition: 2s;
+    scale: 1.2;
+}
 
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    margin: 150px;
+    border: 2px solid white;  
+    box-shadow: -2px -2px 30px yellow;
+    box-shadow:  2px 2px 30px yellow;
+    padding: 40px;
+    color: white;
+    border-radius: 100px;
+    width: 1000px;
+}
+
+.conteudo *{
+    margin: 20px;
+}
+
+.conteudo h1{
+    font-family: 'Supernatural';
+}
+
+.conteudo img{
+    border-radius: 20px;
+    border: 2px solid white;
+    width: 600px;
+}
+
+.conteudo p{
+    font-family: 'Quicksand';
+    font-size: 17px;
+}
 
 footer{
     display: flex;
