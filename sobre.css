@@ -134,9 +134,13 @@ main{
     max-width: 100%;
     height: 400px;
     object-fit: contain;
-    /* border: solid 3px rgb(78, 1, 1); */
-    border-radius: 20px;
+    border-radius: 20px; 
 }
+
+.perfil-img{
+    border: solid 3px rgb(78, 1, 1);
+}
+
 
 .container-texto{
     display: flex;
@@ -148,7 +152,7 @@ main{
     right: 40px;
     margin-left: 80px;
     padding: 10px;
-    border: solid 3px rgb(78, 1, 1);
+    border: solid 4px rgb(78, 1, 1);
     border-radius: 20px;
     /* background-color: rgb(32, 32, 32); */
     background-color: white;
