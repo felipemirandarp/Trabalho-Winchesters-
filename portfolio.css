@@ -62,7 +62,7 @@ nav ul{
     li{
         margin-left: -4px;
         color: white;
-        width: 70px;
+        width: 90px;
         text-align: center;
         justify-content: center;
         display: inline-block;
@@ -153,4 +153,8 @@ footer{
     img{
         width: 80px;
     }
+}
+
+nav{
+    font-family: 'Quicksand';
 }

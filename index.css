@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
+
 html{
     scroll-behavior: smooth;
 }
@@ -97,7 +101,7 @@ nav ul{
     li{
         margin-left: -4px;
         color: white;
-        width: 70px;
+        width: 90px;
         text-align: center;
         justify-content: center;
         display: inline-block;
@@ -147,6 +151,8 @@ nav ul{
 
     .titulo{
         text-align: center;
+        margin: 40px;
+        font-family: 'Supernatural';
     }
 }
 
@@ -195,5 +201,12 @@ footer{
       opacity: 1;
       translate: 0 0;
     }
-  }
+}
 
+.indv-desc p{
+    font-family: 'Quicksand';
+}
+
+nav{
+    font-family: 'Quicksand';
+}
