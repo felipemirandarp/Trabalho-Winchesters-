@@ -183,3 +183,7 @@ main{
 p,nav{
     font-family: 'Quicksand';
 }
+h1{
+    font-family: 'Nunito';
+    padding: 10px;
+}
