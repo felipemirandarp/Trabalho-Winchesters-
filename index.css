@@ -123,6 +123,7 @@ nav ul{
 .pers-desc{
     display: flex;
     flex-direction: column;
+    
 }
 
 .indv-desc{
@@ -138,6 +139,8 @@ nav ul{
     width: 1000px;
     height: 500px;
     background-color: black;
+    /*box-shadow: -2px -2px 30px yellow;
+    box-shadow:  2px 2px 30px yellow;*/
 
     img{
         padding: 20px;

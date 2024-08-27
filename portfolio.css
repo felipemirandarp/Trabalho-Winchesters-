@@ -51,6 +51,7 @@ nav{
     border-top: solid 4px black;
     border-bottom: solid 4px black;
     background-color: black;
+    
 }
 
 nav ul{
@@ -71,6 +72,7 @@ nav ul{
         border-right: solid 2px white;
         padding-left: 4px;
         padding-right: 4px;
+        
     }
 }
 
@@ -85,13 +87,15 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 300px;
+    margin-top: 320px;
     border: solid 2px white;
     border-radius: 10px;
     padding: 30px;
-    width: 700px;
+    width: 600px;
     color: white;
     background-color: black;
+    /*box-shadow: -2px -2px 30px yellow;
+    box-shadow:  2px 2px 30px yellow;*/
 }
 
 
@@ -108,6 +112,8 @@ main{
     display: flex;
     flex-direction: row;
     margin-top: 100px;
+    /*box-shadow: -2px -2px 30px yellow;
+    box-shadow:  2px 2px 30px yellow;*/
 }
 
 .navs a{
